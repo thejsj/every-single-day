@@ -1,8 +1,10 @@
 var React = require('react-native')
 var { AppRegistry, NavigatorIOS, StyleSheet } = React
 
-let MainListView = require('./components/main/main-list-view.js')
-var AddNewHabitView = require('./components/habit/add-new-habit-view.js')
+let MainListView = require('./lib/components/main/main-list-view.js')
+var AddNewHabitView = require('./lib/components/habit/add-new-habit-view.js')
+const HabitStorage = require('./lib/storage/habit-storage.js')
+const habitStorage = new HabitStorage()
 
 const styles = StyleSheet.create({
   navigator: {
@@ -10,7 +12,13 @@ const styles = StyleSheet.create({
   }
 })
 
-var AwesomeProject = React.createClass({
+var EverySingleDayApp = React.createClass({
+
+  getInitialState: function () {
+    habitStorage.getAllHabits()
+      .then((habits) => this.forceUpdate())
+    return {}
+  },
 
   render: function () {
     return (
@@ -20,7 +28,7 @@ var AwesomeProject = React.createClass({
         initialRoute={{
           component: MainListView,
           title: 'Every Single Day',
-          passProps: { myProp: 'foo' },
+          passProps: { habitStorage: habitStorage },
           rightButtonTitle: 'Add',
           onRightButtonPress: () => {
             this.refs.nav.push({
@@ -37,4 +45,4 @@ var AwesomeProject = React.createClass({
 
 })
 
-AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject)
+AppRegistry.registerComponent('EverySingleDay', () => EverySingleDayApp)
