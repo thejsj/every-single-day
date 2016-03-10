@@ -15,8 +15,10 @@ const styles = StyleSheet.create({
 var EverySingleDayApp = React.createClass({
 
   getInitialState: function () {
-    habitStorage.getAllHabits()
-      .then((habits) => this.forceUpdate())
+    habitStorage.init()
+      .then(this.forceUpdate.bind(this))
+    habitStorage
+      .onUpdate(this.forceUpdate.bind(this))
     return {}
   },
 
@@ -35,6 +37,7 @@ var EverySingleDayApp = React.createClass({
               component: AddNewHabitView,
               title: 'Add New',
               leftButtonTitle: 'Back',
+              passProps: { habitStorage: habitStorage },
               onLeftButtonPress: () => this.refs.nav.pop()
             })
           }
