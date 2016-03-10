@@ -21,6 +21,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		1CB0FB961C91330A00778FAE /* libSQLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB0FB951C9132EC00778FAE /* libSQLite.a */; };
+		1CB0FB981C91331200778FAE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB0FB971C91331200778FAE /* libsqlite3.0.tbd */; };
 		1CD7A9941C16A73E008C7443 /* libReactNativeIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD7A9931C16A6E9008C7443 /* libReactNativeIcons.a */; };
 		1CD7A9AC1C16AB32008C7443 /* FAKFontAwesome.h in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9971C16AB32008C7443 /* FAKFontAwesome.h */; };
 		1CD7A9AD1C16AB32008C7443 /* FAKFontAwesome.m in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9981C16AB32008C7443 /* FAKFontAwesome.m */; };
@@ -111,6 +113,13 @@
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
+		1CB0FB941C9132EC00778FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CB0FB851C9132EC00778FAE /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E23D7B471ACEFE2A00C59171;
+			remoteInfo = SQLite;
+		};
 		1CD7A9921C16A6E9008C7443 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1CD7A98E1C16A6E9008C7443 /* ReactNativeIcons.xcodeproj */;
@@ -154,6 +163,8 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeProject/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeProject/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1CB0FB851C9132EC00778FAE /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../node_modules/react-native-sqlite-storage/src/ios/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		1CB0FB971C91331200778FAE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		1CD7A98E1C16A6E9008C7443 /* ReactNativeIcons.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeIcons.xcodeproj; path = "../node_modules/react-native-icons/ios/ReactNativeIcons.xcodeproj"; sourceTree = "<group>"; };
 		1CD7A9951C16A7B2008C7443 /* FontAwesomeKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FontAwesomeKit; sourceTree = "<group>"; };
 		1CD7A9971C16AB32008C7443 /* FAKFontAwesome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKFontAwesome.h"; sourceTree = "<group>"; };
@@ -194,6 +205,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB0FB981C91331200778FAE /* libsqlite3.0.tbd in Frameworks */,
+				1CB0FB961C91330A00778FAE /* libSQLite.a in Frameworks */,
 				1CD7A9941C16A73E008C7443 /* libReactNativeIcons.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -306,6 +319,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1CB0FB861C9132EC00778FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CB0FB951C9132EC00778FAE /* libSQLite.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1CD7A98F1C16A6E9008C7443 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -325,6 +346,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				1CB0FB851C9132EC00778FAE /* SQLite.xcodeproj */,
 				1CD7A98E1C16A6E9008C7443 /* ReactNativeIcons.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -351,6 +373,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				1CB0FB971C91331200778FAE /* libsqlite3.0.tbd */,
 				1CD7A9C11C16AB47008C7443 /* FontAwesomeKit */,
 				1CD7A9971C16AB32008C7443 /* FAKFontAwesome.h */,
 				1CD7A9981C16AB32008C7443 /* FAKFontAwesome.m */,
@@ -502,6 +525,10 @@
 					ProductGroup = 1CD7A98F1C16A6E9008C7443 /* Products */;
 					ProjectRef = 1CD7A98E1C16A6E9008C7443 /* ReactNativeIcons.xcodeproj */;
 				},
+				{
+					ProductGroup = 1CB0FB861C9132EC00778FAE /* Products */;
+					ProjectRef = 1CB0FB851C9132EC00778FAE /* SQLite.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -566,6 +593,13 @@
 			fileType = archive.ar;
 			path = libReact.a;
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1CB0FB951C9132EC00778FAE /* libSQLite.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSQLite.a;
+			remoteRef = 1CB0FB941C9132EC00778FAE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		1CD7A9931C16A6E9008C7443 /* libReactNativeIcons.a */ = {
