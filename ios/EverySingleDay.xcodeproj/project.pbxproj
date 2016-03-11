@@ -12,7 +12,7 @@
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
-		00E356F31AD99517003FC87E /* AwesomeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AwesomeProjectTests.m */; };
+		00E356F31AD99517003FC87E /* EverySingleDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EverySingleDayTests.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -21,31 +21,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		1CB0FB961C91330A00778FAE /* libSQLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB0FB951C9132EC00778FAE /* libSQLite.a */; };
-		1CB0FB981C91331200778FAE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB0FB971C91331200778FAE /* libsqlite3.0.tbd */; };
-		1CD7A9941C16A73E008C7443 /* libReactNativeIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD7A9931C16A6E9008C7443 /* libReactNativeIcons.a */; };
-		1CD7A9AC1C16AB32008C7443 /* FAKFontAwesome.h in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9971C16AB32008C7443 /* FAKFontAwesome.h */; };
-		1CD7A9AD1C16AB32008C7443 /* FAKFontAwesome.m in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9981C16AB32008C7443 /* FAKFontAwesome.m */; };
-		1CD7A9AE1C16AB32008C7443 /* FAKFoundationIcons.h in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9991C16AB32008C7443 /* FAKFoundationIcons.h */; };
-		1CD7A9AF1C16AB32008C7443 /* FAKFoundationIcons.m in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A99A1C16AB32008C7443 /* FAKFoundationIcons.m */; };
-		1CD7A9B01C16AB32008C7443 /* FAKIcon.h in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A99B1C16AB32008C7443 /* FAKIcon.h */; };
-		1CD7A9B11C16AB32008C7443 /* FAKIcon.m in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A99C1C16AB32008C7443 /* FAKIcon.m */; };
-		1CD7A9B21C16AB32008C7443 /* FAKIonIcons.h in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A99D1C16AB32008C7443 /* FAKIonIcons.h */; };
-		1CD7A9B31C16AB32008C7443 /* FAKIonIcons.m in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A99E1C16AB32008C7443 /* FAKIonIcons.m */; };
-		1CD7A9B41C16AB32008C7443 /* FAKMaterial.h in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A99F1C16AB32008C7443 /* FAKMaterial.h */; };
-		1CD7A9B51C16AB32008C7443 /* FAKMaterial.m in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9A01C16AB32008C7443 /* FAKMaterial.m */; };
-		1CD7A9B61C16AB32008C7443 /* FAKOcticons.h in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9A11C16AB32008C7443 /* FAKOcticons.h */; };
-		1CD7A9B71C16AB32008C7443 /* FAKOcticons.m in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9A21C16AB32008C7443 /* FAKOcticons.m */; };
-		1CD7A9B81C16AB32008C7443 /* FAKZocial.h in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9A31C16AB32008C7443 /* FAKZocial.h */; };
-		1CD7A9B91C16AB32008C7443 /* FAKZocial.m in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9A41C16AB32008C7443 /* FAKZocial.m */; };
-		1CD7A9BA1C16AB32008C7443 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9A51C16AB32008C7443 /* FontAwesome.otf */; };
-		1CD7A9BB1C16AB32008C7443 /* FontAwesomeKit.h in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9A61C16AB32008C7443 /* FontAwesomeKit.h */; };
-		1CD7A9BC1C16AB32008C7443 /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9A71C16AB32008C7443 /* foundation-icons.ttf */; };
-		1CD7A9BD1C16AB32008C7443 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9A81C16AB32008C7443 /* ionicons.ttf */; };
-		1CD7A9BE1C16AB32008C7443 /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9A91C16AB32008C7443 /* Material-Design-Iconic-Font.ttf */; };
-		1CD7A9BF1C16AB32008C7443 /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9AA1C16AB32008C7443 /* octicons.ttf */; };
-		1CD7A9C01C16AB32008C7443 /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9AB1C16AB32008C7443 /* zocial-regular-webfont.ttf */; };
-		1CD7A9C21C16AB47008C7443 /* FontAwesomeKit in Resources */ = {isa = PBXBuildFile; fileRef = 1CD7A9C11C16AB47008C7443 /* FontAwesomeKit */; };
+		1CE536861C92A3CC00E66D85 /* libSQLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE536851C92A3BA00E66D85 /* libSQLite.a */; };
+		1CE536881C92A3D400E66D85 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE536871C92A3D400E66D85 /* libsqlite3.0.tbd */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -90,7 +67,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = AwesomeProject;
+			remoteInfo = EverySingleDay;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -113,19 +90,12 @@
 			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
 			remoteInfo = React;
 		};
-		1CB0FB941C9132EC00778FAE /* PBXContainerItemProxy */ = {
+		1CE536841C92A3BA00E66D85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1CB0FB851C9132EC00778FAE /* SQLite.xcodeproj */;
+			containerPortal = 1CE536761C92A3B900E66D85 /* SQLite.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = E23D7B471ACEFE2A00C59171;
 			remoteInfo = SQLite;
-		};
-		1CD7A9921C16A6E9008C7443 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1CD7A98E1C16A6E9008C7443 /* ReactNativeIcons.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2F5A3EB81ACDBF8000439386;
-			remoteInfo = ReactNativeIcons;
 		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -150,45 +120,21 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* AwesomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* EverySingleDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverySingleDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* AwesomeProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeProjectTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* EverySingleDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EverySingleDayTests.m; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Every Single Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Every Single Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AwesomeProject/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AwesomeProject/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* EverySingleDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverySingleDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EverySingleDay/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EverySingleDay/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AwesomeProject/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AwesomeProject/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeProject/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EverySingleDay/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EverySingleDay/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EverySingleDay/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		1CB0FB851C9132EC00778FAE /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../node_modules/react-native-sqlite-storage/src/ios/SQLite.xcodeproj"; sourceTree = "<group>"; };
-		1CB0FB971C91331200778FAE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		1CD7A98E1C16A6E9008C7443 /* ReactNativeIcons.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeIcons.xcodeproj; path = "../node_modules/react-native-icons/ios/ReactNativeIcons.xcodeproj"; sourceTree = "<group>"; };
-		1CD7A9951C16A7B2008C7443 /* FontAwesomeKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FontAwesomeKit; sourceTree = "<group>"; };
-		1CD7A9971C16AB32008C7443 /* FAKFontAwesome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKFontAwesome.h"; sourceTree = "<group>"; };
-		1CD7A9981C16AB32008C7443 /* FAKFontAwesome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKFontAwesome.m"; sourceTree = "<group>"; };
-		1CD7A9991C16AB32008C7443 /* FAKFoundationIcons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKFoundationIcons.h"; sourceTree = "<group>"; };
-		1CD7A99A1C16AB32008C7443 /* FAKFoundationIcons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKFoundationIcons.m"; sourceTree = "<group>"; };
-		1CD7A99B1C16AB32008C7443 /* FAKIcon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKIcon.h"; sourceTree = "<group>"; };
-		1CD7A99C1C16AB32008C7443 /* FAKIcon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKIcon.m"; sourceTree = "<group>"; };
-		1CD7A99D1C16AB32008C7443 /* FAKIonIcons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKIonIcons.h"; sourceTree = "<group>"; };
-		1CD7A99E1C16AB32008C7443 /* FAKIonIcons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKIonIcons.m"; sourceTree = "<group>"; };
-		1CD7A99F1C16AB32008C7443 /* FAKMaterial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FAKMaterial.h; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKMaterial.h"; sourceTree = "<group>"; };
-		1CD7A9A01C16AB32008C7443 /* FAKMaterial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FAKMaterial.m; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKMaterial.m"; sourceTree = "<group>"; };
-		1CD7A9A11C16AB32008C7443 /* FAKOcticons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FAKOcticons.h; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKOcticons.h"; sourceTree = "<group>"; };
-		1CD7A9A21C16AB32008C7443 /* FAKOcticons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FAKOcticons.m; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKOcticons.m"; sourceTree = "<group>"; };
-		1CD7A9A31C16AB32008C7443 /* FAKZocial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKZocial.h"; sourceTree = "<group>"; };
-		1CD7A9A41C16AB32008C7443 /* FAKZocial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FAKZocial.m"; sourceTree = "<group>"; };
-		1CD7A9A51C16AB32008C7443 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FontAwesome.otf"; sourceTree = "<group>"; };
-		1CD7A9A61C16AB32008C7443 /* FontAwesomeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/FontAwesomeKit.h"; sourceTree = "<group>"; };
-		1CD7A9A71C16AB32008C7443 /* foundation-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "foundation-icons.ttf"; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
-		1CD7A9A81C16AB32008C7443 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ionicons.ttf; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/ionicons.ttf"; sourceTree = "<group>"; };
-		1CD7A9A91C16AB32008C7443 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Material-Design-Iconic-Font.ttf"; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
-		1CD7A9AA1C16AB32008C7443 /* octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = octicons.ttf; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/octicons.ttf"; sourceTree = "<group>"; };
-		1CD7A9AB1C16AB32008C7443 /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "zocial-regular-webfont.ttf"; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
-		1CD7A9C11C16AB47008C7443 /* FontAwesomeKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FontAwesomeKit; path = "../node_modules/react-native-icons/ios/ReactNativeIcons/Libraries/FontAwesomeKit"; sourceTree = "<group>"; };
+		1CE536761C92A3B900E66D85 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../node_modules/react-native-sqlite-storage/src/ios/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		1CE536871C92A3D400E66D85 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -205,9 +151,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CB0FB981C91331200778FAE /* libsqlite3.0.tbd in Frameworks */,
-				1CB0FB961C91330A00778FAE /* libSQLite.a in Frameworks */,
-				1CD7A9941C16A73E008C7443 /* libReactNativeIcons.a in Frameworks */,
+				1CE536881C92A3D400E66D85 /* libsqlite3.0.tbd in Frameworks */,
+				1CE536861C92A3CC00E66D85 /* libSQLite.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
@@ -264,13 +209,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* AwesomeProjectTests */ = {
+		00E356EF1AD99517003FC87E /* EverySingleDayTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* AwesomeProjectTests.m */,
+				00E356F21AD99517003FC87E /* EverySingleDayTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = AwesomeProjectTests;
+			path = EverySingleDayTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -297,7 +242,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* AwesomeProject */ = {
+		13B07FAE1A68108700A75B9A /* EverySingleDay */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -308,7 +253,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = AwesomeProject;
+			name = EverySingleDay;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -319,18 +264,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1CB0FB861C9132EC00778FAE /* Products */ = {
+		1CE536771C92A3B900E66D85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CB0FB951C9132EC00778FAE /* libSQLite.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1CD7A98F1C16A6E9008C7443 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1CD7A9931C16A6E9008C7443 /* libReactNativeIcons.a */,
+				1CE536851C92A3BA00E66D85 /* libSQLite.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -346,8 +283,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				1CB0FB851C9132EC00778FAE /* SQLite.xcodeproj */,
-				1CD7A98E1C16A6E9008C7443 /* ReactNativeIcons.xcodeproj */,
+				1CE536761C92A3B900E66D85 /* SQLite.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
@@ -373,33 +309,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				1CB0FB971C91331200778FAE /* libsqlite3.0.tbd */,
-				1CD7A9C11C16AB47008C7443 /* FontAwesomeKit */,
-				1CD7A9971C16AB32008C7443 /* FAKFontAwesome.h */,
-				1CD7A9981C16AB32008C7443 /* FAKFontAwesome.m */,
-				1CD7A9991C16AB32008C7443 /* FAKFoundationIcons.h */,
-				1CD7A99A1C16AB32008C7443 /* FAKFoundationIcons.m */,
-				1CD7A99B1C16AB32008C7443 /* FAKIcon.h */,
-				1CD7A99C1C16AB32008C7443 /* FAKIcon.m */,
-				1CD7A99D1C16AB32008C7443 /* FAKIonIcons.h */,
-				1CD7A99E1C16AB32008C7443 /* FAKIonIcons.m */,
-				1CD7A99F1C16AB32008C7443 /* FAKMaterial.h */,
-				1CD7A9A01C16AB32008C7443 /* FAKMaterial.m */,
-				1CD7A9A11C16AB32008C7443 /* FAKOcticons.h */,
-				1CD7A9A21C16AB32008C7443 /* FAKOcticons.m */,
-				1CD7A9A31C16AB32008C7443 /* FAKZocial.h */,
-				1CD7A9A41C16AB32008C7443 /* FAKZocial.m */,
-				1CD7A9A51C16AB32008C7443 /* FontAwesome.otf */,
-				1CD7A9A61C16AB32008C7443 /* FontAwesomeKit.h */,
-				1CD7A9A71C16AB32008C7443 /* foundation-icons.ttf */,
-				1CD7A9A81C16AB32008C7443 /* ionicons.ttf */,
-				1CD7A9A91C16AB32008C7443 /* Material-Design-Iconic-Font.ttf */,
-				1CD7A9AA1C16AB32008C7443 /* octicons.ttf */,
-				1CD7A9AB1C16AB32008C7443 /* zocial-regular-webfont.ttf */,
-				1CD7A9951C16A7B2008C7443 /* FontAwesomeKit */,
-				13B07FAE1A68108700A75B9A /* AwesomeProject */,
+				1CE536871C92A3D400E66D85 /* libsqlite3.0.tbd */,
+				13B07FAE1A68108700A75B9A /* EverySingleDay */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* AwesomeProjectTests */,
+				00E356EF1AD99517003FC87E /* EverySingleDayTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 			);
 			indentWidth = 2;
@@ -409,8 +322,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Every Single Day.app */,
-				00E356EE1AD99517003FC87E /* AwesomeProjectTests.xctest */,
+				13B07F961A680F5B00A75B9A /* EverySingleDay.app */,
+				00E356EE1AD99517003FC87E /* EverySingleDayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -418,9 +331,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* AwesomeProjectTests */ = {
+		00E356ED1AD99517003FC87E /* EverySingleDayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AwesomeProjectTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EverySingleDayTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -431,14 +344,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = AwesomeProjectTests;
-			productName = AwesomeProjectTests;
-			productReference = 00E356EE1AD99517003FC87E /* AwesomeProjectTests.xctest */;
+			name = EverySingleDayTests;
+			productName = EverySingleDayTests;
+			productReference = 00E356EE1AD99517003FC87E /* EverySingleDayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* AwesomeProject */ = {
+		13B07F861A680F5B00A75B9A /* EverySingleDay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AwesomeProject" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EverySingleDay" */;
 			buildPhases = (
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -449,9 +362,9 @@
 			);
 			dependencies = (
 			);
-			name = AwesomeProject;
+			name = EverySingleDay;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* Every Single Day.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* EverySingleDay.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -469,7 +382,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AwesomeProject" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EverySingleDay" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -522,18 +435,14 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = 1CD7A98F1C16A6E9008C7443 /* Products */;
-					ProjectRef = 1CD7A98E1C16A6E9008C7443 /* ReactNativeIcons.xcodeproj */;
-				},
-				{
-					ProductGroup = 1CB0FB861C9132EC00778FAE /* Products */;
-					ProjectRef = 1CB0FB851C9132EC00778FAE /* SQLite.xcodeproj */;
+					ProductGroup = 1CE536771C92A3B900E66D85 /* Products */;
+					ProjectRef = 1CE536761C92A3B900E66D85 /* SQLite.xcodeproj */;
 				},
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* AwesomeProject */,
-				00E356ED1AD99517003FC87E /* AwesomeProjectTests */,
+				13B07F861A680F5B00A75B9A /* EverySingleDay */,
+				00E356ED1AD99517003FC87E /* EverySingleDayTests */,
 			);
 		};
 /* End PBXProject section */
@@ -595,18 +504,11 @@
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		1CB0FB951C9132EC00778FAE /* libSQLite.a */ = {
+		1CE536851C92A3BA00E66D85 /* libSQLite.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libSQLite.a;
-			remoteRef = 1CB0FB941C9132EC00778FAE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1CD7A9931C16A6E9008C7443 /* libReactNativeIcons.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libReactNativeIcons.a;
-			remoteRef = 1CD7A9921C16A6E9008C7443 /* PBXContainerItemProxy */;
+			remoteRef = 1CE536841C92A3BA00E66D85 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
@@ -637,28 +539,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CD7A9C21C16AB47008C7443 /* FontAwesomeKit in Resources */,
-				1CD7A9AC1C16AB32008C7443 /* FAKFontAwesome.h in Resources */,
-				1CD7A9AD1C16AB32008C7443 /* FAKFontAwesome.m in Resources */,
-				1CD7A9AE1C16AB32008C7443 /* FAKFoundationIcons.h in Resources */,
-				1CD7A9AF1C16AB32008C7443 /* FAKFoundationIcons.m in Resources */,
-				1CD7A9B01C16AB32008C7443 /* FAKIcon.h in Resources */,
-				1CD7A9B11C16AB32008C7443 /* FAKIcon.m in Resources */,
-				1CD7A9B21C16AB32008C7443 /* FAKIonIcons.h in Resources */,
-				1CD7A9B31C16AB32008C7443 /* FAKIonIcons.m in Resources */,
-				1CD7A9B41C16AB32008C7443 /* FAKMaterial.h in Resources */,
-				1CD7A9B51C16AB32008C7443 /* FAKMaterial.m in Resources */,
-				1CD7A9B61C16AB32008C7443 /* FAKOcticons.h in Resources */,
-				1CD7A9B71C16AB32008C7443 /* FAKOcticons.m in Resources */,
-				1CD7A9B81C16AB32008C7443 /* FAKZocial.h in Resources */,
-				1CD7A9B91C16AB32008C7443 /* FAKZocial.m in Resources */,
-				1CD7A9BA1C16AB32008C7443 /* FontAwesome.otf in Resources */,
-				1CD7A9BB1C16AB32008C7443 /* FontAwesomeKit.h in Resources */,
-				1CD7A9BC1C16AB32008C7443 /* foundation-icons.ttf in Resources */,
-				1CD7A9BD1C16AB32008C7443 /* ionicons.ttf in Resources */,
-				1CD7A9BE1C16AB32008C7443 /* Material-Design-Iconic-Font.ttf in Resources */,
-				1CD7A9BF1C16AB32008C7443 /* octicons.ttf in Resources */,
-				1CD7A9C01C16AB32008C7443 /* zocial-regular-webfont.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -679,7 +559,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "../node_modules/react-native/packager/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -688,7 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* AwesomeProjectTests.m in Sources */,
+				00E356F31AD99517003FC87E /* EverySingleDayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,7 +586,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* AwesomeProject */;
+			target = 13B07F861A680F5B00A75B9A /* EverySingleDay */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -718,7 +598,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = AwesomeProject;
+			path = EverySingleDay;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -736,11 +616,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AwesomeProjectTests/Info.plist;
+				INFOPLIST_FILE = EverySingleDayTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeProject.app/AwesomeProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EverySingleDay.app/EverySingleDay";
 			};
 			name = Debug;
 		};
@@ -753,11 +633,11 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AwesomeProjectTests/Info.plist;
+				INFOPLIST_FILE = EverySingleDayTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeProject.app/AwesomeProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EverySingleDay.app/EverySingleDay";
 			};
 			name = Release;
 		};
@@ -771,11 +651,10 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
-				INFOPLIST_FILE = AwesomeProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = EverySingleDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Every Single Day";
+				PRODUCT_NAME = EverySingleDay;
 			};
 			name = Debug;
 		};
@@ -788,11 +667,10 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
-				INFOPLIST_FILE = AwesomeProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = EverySingleDay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Every Single Day";
+				PRODUCT_NAME = EverySingleDay;
 			};
 			name = Release;
 		};
@@ -885,7 +763,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AwesomeProjectTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EverySingleDayTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -894,7 +772,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AwesomeProject" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EverySingleDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -903,7 +781,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AwesomeProject" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EverySingleDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
