@@ -1,9 +1,10 @@
 import React, { AppRegistry, Component, StyleSheet, NavigatorIOS } from 'react-native'
+import { Provider } from 'react-redux'
 
 import store from './lib/stores'
+import { getAllHabits } from './lib/actions'
 import MainListView from './lib/components/main/main-list-view.js'
 import AddNewHabitView from './lib/components/habit/add-new-habit-view.js'
-import { Provider } from 'react-redux'
 
 const styles = StyleSheet.create({
   navigator: {
@@ -12,6 +13,10 @@ const styles = StyleSheet.create({
 })
 
 class EverySingleDay extends Component {
+
+  componentDidMount () {
+    store.dispatch(getAllHabits())
+  }
 
   render () {
     return (
